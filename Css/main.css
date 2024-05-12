@@ -358,11 +358,21 @@ nav .items li a {
 .about-buttons span {
   font-size: 0.9rem;
 }
-.btn-about {
+
+.btn-about,.btn-about-secound {
   padding: 0.5rem 2rem;
   transition: all 0.3s ease-in-out;
 }
-.about-buttons .btn-about:nth-of-type(1):hover {
+.btn-about{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.about-buttons .btn-about:hover{
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color)
+} 
+.about-buttons .btn-about-secound:hover {
   background-color: var(--main-color);
 }
 /**/
@@ -466,7 +476,7 @@ nav .items li a {
   padding: 1rem 1rem;
 }
 .clients-content p,
-span {
+.clients-content span {
   color: var(--secoundry-body-color);
   margin-bottom: 2rem;
 }
@@ -588,6 +598,11 @@ span {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.contact .contact-icon:hover i {
+  background-color: var(--main-color);
+  color:var(--white-color)
 }
 .contact h6 {
   font-weight: 800;

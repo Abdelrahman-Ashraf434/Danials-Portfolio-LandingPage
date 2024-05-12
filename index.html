@@ -7,7 +7,7 @@
     <link rel="icon" href="./Images/favicon.ico" />
     <link rel="stylesheet" href="./Css/all.min.css" />
     <link rel="stylesheet" href="./Css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./Css/main.css" />
+    <link rel="stylesheet" href="./Css/main.min.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <nav
@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse adjusted-nav" id="navbarScroll">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 items">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -54,7 +54,7 @@
         </div>
       </div>
     </nav>
-    <header
+    <header id="home"
       class="main-header vh-100 text-center d-flex align-items-center position-relative"
     >
       <div class="container">
@@ -139,16 +139,16 @@
               </div>
               <div class="about-buttons pt-5">
                 <a class="text-white" href="#">
-                  <button type="button" class="btn bg-black btn-md btn-about">
-                    <span class="text-white"> Download CV </span>
+                  <button type="button" class="btn btn-md btn-about">
+                    <span class="first-btn"> Download CV </span>
                   </button>
                 </a>
                 <a class="text-white" href="#">
                   <button
                     type="button"
-                    class="btn btn-md border border-black border-1 btn-about"
+                    class="btn btn-md border border-black border-1 btn-about-secound"
                   >
-                    <span>Contact Me</span>
+                    <span class="secound-btn">Contact Me</span>
                   </button>
                 </a>
               </div>
